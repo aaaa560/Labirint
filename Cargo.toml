@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-minfb = "0.25"
+minifb = "0.25"
