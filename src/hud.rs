@@ -31,7 +31,7 @@ pub fn draw_minimap(player: &Player, map: &GameMap, buffer: &mut [u32]) {
     for sy in 0..scale {
         for sx in 0..scale {
             let nx = px + sx;
-            let ny = py + py;
+            let ny = py + sy;
             if nx < WIDTH && ny < HEIGTH {
                 buffer[ny * WIDTH + nx] = 0xFF0000;
             }
